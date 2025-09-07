@@ -6,7 +6,7 @@ export async function GET() {
 
     // Fetch from Google Sheets with new corrected URL
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbzQooq3FHk7t6AEPzepqUHkSU2usrsBwzWBkuiT4ohF3ULhWehvNOroVIE8XbnfPUmk/exec?action=getGuests",
+      "https://script.google.com/macros/s/AKfycbx3I6F29lhLSHiErIzpRZCrtReZJEdIUw3b7B-gfa-g6f2WLcUoXMhgIhl9Rl3V7bFTBg/exec?action=getGuests",
     )  
 
     console.log("Google Sheets response status:", response.status)
